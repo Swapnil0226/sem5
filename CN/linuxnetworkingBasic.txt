@@ -1,0 +1,8 @@
+ifconfig
+ping address
+tracert google.com
+nslookup google.com
+netstat -a
+arp -a
+route PRINT
+dig google.com

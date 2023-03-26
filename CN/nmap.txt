@@ -1,0 +1,20 @@
+sudo apt-get install nmap
+nmap google.com
+nmap -v google.com
+nmap google.com youtube.com
+nmap 192.168.0.*
+	cat > filename.txt
+	google.com
+	youtube.com
+	nmap -iL filename.txt
+nmap 192.168.0.101-110
+nmap -A 192.168.0.101
+nmap -O 192.168.0.101
+nmap -sA 192.168.0.101  --firewall
+nmap -sP 192.168.0.*  --live hosts
+nmap -F 192.168.0.101  --fast scan
+nmap -V
+nmap -p 80 google.com --specific port
+nmap -sT 192.168.0.101  --common TCP port
+nmap -sU 53 google.com  --UDP port
+nmap -sV 192.168.0.101 --services version no
